@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Registro</title>
+</head>
+<body>
+
+  <h1>Formulario de Registro de Visita</h1>
+
+  <form action="#" method="post">
+    <label for="cedula">Número de cédula:</label><br>
+    <input type="text" id="cedula" name="cedula" required><br><br>
+
+    <label for="nombres">Nombres:</label><br>
+    <input type="text" id="nombres" name="nombres" required><br><br>
+
+    <label for="apellidos">Apellidos:</label><br>
+    <input type="text" id="apellidos" name="apellidos" required><br><br>
+
+    <label for="departamento">Departamento que visita:</label><br>
+    <select id="departamento" name="departamento" required>
+      <option value="">--Seleccione--</option>
+      <option value="ventas">Ventas</option>
+      <option value="credito">Crédito</option>
+      <option value="recursos_humanos">Recursos Humanos</option>
+    </select><br><br>
+
+    <label for="motivo">Motivo de la visita:</label><br>
+    <textarea id="motivo" name="motivo" rows="4" cols="40" required></textarea><br><br>
+
+    <button type="submit">Registrar</button>
+  </form>
+
+</body>
+</html>
