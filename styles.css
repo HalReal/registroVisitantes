@@ -1,0 +1,81 @@
+/*Cuerpo de pagina */
+body{
+    /*background-color: #5B7363;*/
+    /* Degradado */
+    background: linear-gradient(to bottom, #5B7363, #F5F5DC); /* Degradado */
+    font-family: 'Times New Roman', Times, serif;
+    /*border: 1px solid red;*/
+    margin : 0;
+    padding: 0;
+}
+/*Encabezado */
+header {
+    background-color: #789581;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px solid #4B5F52;
+}
+
+/*Texto de encabezado */
+header h1{
+    color: white;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+/*Centrar formulario*/
+form {
+    background-color: #789581;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #4B5F52;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 50%;
+}
+
+/*Estilización de los inputs y los select */
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #4B5F52;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/*Botón más bonito*/
+button{
+    background-color: #4B5F52;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/*Animación de botón*/
+button:hover {
+    /*Cambia de color al pasarle el mouse encima */
+    background-color: #3A4B42;
+}
+
+/*Pie de pagina */
+footer {
+    background-color: #647F6D;
+    text-align: center;
+    padding: 0px;
+    border-top: 2px solid #4B5F52;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/*Texto de pie de pagina */
+footer p {
+    color: white; /* Texto blanco */
+    font-size: 14px; /* Tamaño de fuente */
+    margin: 10px 0; /* Espaciado */
+}
