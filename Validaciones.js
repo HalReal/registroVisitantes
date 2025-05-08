@@ -4,22 +4,22 @@ document.addEventListener("DOMContentLoaded", function () {
     formulario.addEventListener("submit", function (event) {
     
     const cedula= document.getElementById("cedula").value.trim();
-    const nombre= document.getElementById("nombre").value.trim();
-    const apellido= document.getElementById("apellido").value.trim();
-    const departamento= document.getElementById("departamento").value();
+    const nombres= document.getElementById("nombres").value.trim();
+    const apellidos= document.getElementById("apellidos").value.trim();
+    const departamento= document.getElementById("departamento").value.trim();
     const motivo= document.getElementById("motivo").value.trim();
     
-    let mensajeError
+    let mensajeError = "";
     
     if (!cedula.match(/^\d{3}-\d{6}-\d{4}[A-Za-z]$/)) {
         mensajeError += "La cédula debe tener el formato 999-999999-9999X.\n";
       }
     
-      if (nombre === "") {
+      if (nombres === "") {
         mensajeError += "El campo de nombres no puede estar vacío.\n";
       }
     
-      if (apellido === "") {
+      if (apellidos === "") {
         mensajeError += "El campo de apellidos no puede estar vacío.\n";
       }
     
